@@ -41,7 +41,7 @@ nav {
 }
 .hero-section {
   background: url('../b13-a-01/B13-A01-Knowledge-Vault/assets/hero-bg.png');
-
+  
   background-repeat: no-repeat;
   width: 100%;
   max-width: 1600px;
@@ -131,9 +131,8 @@ background-color: #f0f0f0;
 }
 .card-box{
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 0 30px;
+    justify-content:center;
+    gap: 20px;
     
 }
 .card h4{
@@ -162,7 +161,7 @@ background-color: #f0f0f0;
     border:1px solid lightgray;
     border-radius: 5px;
     box-shadow: 2px 2px 3px gray;
-    padding: 50px 15px;
+    padding: 25px 40px;
     
 }
 .container{
@@ -207,7 +206,7 @@ background-color: #f0f0f0;
     margin: 0 auto;
     text-align:center;
     background-color:#f0f0f0;
-    margin:20px 150px;
+    margin:100px 150px;
     padding:60px 40px;
     boeder:1px solid gray;
     border-radius:15px;
@@ -260,4 +259,9 @@ background-color: #f0f0f0;
 }
 .social-link img{
     padding:5px;
+}
+.copyright-text p{
+    text-align:center;
+    color:white;
+    padding:30px;
 }
