@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #f0f0f0;
-}
 nav {
   display: flex;
   justify-content: space-around;
@@ -47,8 +44,9 @@ nav {
 
   background-repeat: no-repeat;
   width: 100%;
+  max-width: 1600px;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
 }
 .hero-content {
   text-align: center;
@@ -92,4 +90,132 @@ nav {
 
 .btn2 button:hover {
   background-color: #778800;
+}
+.card-heading {
+  padding: 40px;
+  text-align: center;
+}
+.card-heading h2 {
+  font-size: 40px;
+  font-weight: 600px;
+  line height:30px;
+  margin-bottom: 10px;
+}
+.card-heading p{
+    font-size:15px;
+    
+    line-height:25px;
+    margin-bottom:15px;
+}
+.card-section{
+padding: 20px 150px;
+background-color: #f0f0f0;
+}
+.card-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0 30px;
+    
+}
+.card h4{
+    font-size:20px;
+    font-weight:semi-bold;
+    line-height:20px;
+    text-align:center;
+    margin-bottom:10px;
+}
+.card p{
+    font-size:14px;
+    line-height:20px;
+    text-align:center;
+    
+}
+.card img{
+    background-color:red;
+    border-radius:50%;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding:10px;
+    
+}
+.card{
+    border:1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px gray;
+    padding: 50px 15px;
+    
+}
+.container{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* align-items:center; */
+    padding:50px 150px;
+    gap:40px;
+
+}
+
+.content{
+    padding:90px 10px;
+    
+}
+.content h3{
+    font-size: 20px;
+    line-height:20px;
+    margin-bottom: 20px;
+    color:green;
+    
+}
+.content h2{
+    font-size:30px;
+    font-weight:bold;
+    line-height:40px;
+    margin-bottom:10px;
+   
+}
+.content p{
+    font-size:18px;
+    line-height:30px;
+    margin-bottom: 40px;
+
+}
+.idea{
+    display:flex;
+    margin-bottom:10px
+}
+.access-container{
+    margin: 0 auto;
+    text-align:center;
+    background-color:#f0f0f0;
+    margin:20px 150px;
+    padding:60px 40px;
+    boeder:1px solid gray;
+    border-radius:15px;
+    
+}
+.access-container h2{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom: 20px;
+    
+}
+.access-container p{
+    font-size:15px;
+    color:rgba(120,120,120);
+    margin-bottom:10px;
+    line-height:20px;
+}
+.access-btn{
+    padding: 10px 18px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px;
+}
+.access-btn:hover{
+    background-color:#778800;
 }
