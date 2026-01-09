@@ -75,7 +75,8 @@ nav {
   font-size: 70px;
   margin-bottom: 20px;
   font-weight: 900;
-  light-height: 80px;
+  line-height: 80px;
+  color:white;
 }
 .hero-content p {
   font-size: 18px;
@@ -126,7 +127,7 @@ nav {
 }
 .card-section{
 padding: 0 150px;
-background-color: #f0f0f0;
+background-color:#F8F8FF;
 }
 .card-box{
     display:flex;
@@ -157,11 +158,12 @@ background-color: #f0f0f0;
     
 }
 .card{
-    border:1px solid lightgray;
+    /* border:1px solid lightgray; */
     border-radius: 5px;
-    /* box-shadow: 2px 2px 3px gray; */
     padding: 25px 40px;
     background-color:white;
+    box-shadow: 0px 0px 5px #DCDCDC ;
+    
     
 }
 .container{
