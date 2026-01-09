@@ -41,7 +41,6 @@ nav {
 }
 .hero-section {
   background: url('../b13-a-01/B13-A01-Knowledge-Vault/assets/hero-bg.png');
-  
   background-repeat: no-repeat;
   width: 100%;
   max-width: 1600px;
@@ -50,7 +49,8 @@ nav {
 }
 .hero-content {
   text-align: center;
-  padding: 60px;
+  align-items:center;
+  padding: 150px;
 }
 .btn-hero {
   padding: 12px 22px;
@@ -121,12 +121,11 @@ nav {
 }
 .card-heading p{
     font-size:15px;
-    
     line-height:25px;
     margin-bottom:15px;
 }
 .card-section{
-padding: 20px 150px;
+padding: 0 150px;
 background-color: #f0f0f0;
 }
 .card-box{
@@ -137,7 +136,7 @@ background-color: #f0f0f0;
 }
 .card h4{
     font-size:20px;
-    font-weight:semi-bold;
+    font-weight:600;
     line-height:20px;
     text-align:center;
     margin-bottom:10px;
@@ -160,8 +159,9 @@ background-color: #f0f0f0;
 .card{
     border:1px solid lightgray;
     border-radius: 5px;
-    box-shadow: 2px 2px 3px gray;
+    /* box-shadow: 2px 2px 3px gray; */
     padding: 25px 40px;
+    background-color:white;
     
 }
 .container{
@@ -169,7 +169,7 @@ background-color: #f0f0f0;
     margin: 0 auto;
     justify-content: space-between;
     /* align-items:center; */
-    padding:50px 150px;
+    padding:90px 150px;
     gap:40px;
 
 }
@@ -187,7 +187,7 @@ background-color: #f0f0f0;
 }
 .content h2{
     font-size:30px;
-    font-weight:bold;
+    font-weight:700;
     line-height:40px;
     margin-bottom:10px;
    
@@ -206,9 +206,8 @@ background-color: #f0f0f0;
     margin: 0 auto;
     text-align:center;
     background-color:#f0f0f0;
-    margin:100px 150px;
+    margin:20px 150px 100px;
     padding:60px 40px;
-    boeder:1px solid gray;
     border-radius:15px;
     
 }
@@ -225,7 +224,7 @@ background-color: #f0f0f0;
     line-height:20px;
 }
 .access-btn{
-    padding: 10px 18px;
+  padding: 10px 18px;
   color: white;
   background-color: green;
   border: none;
