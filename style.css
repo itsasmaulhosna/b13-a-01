@@ -60,6 +60,10 @@ nav {
   border-radius: 15px;
   color: green;
   cursor: pointer;
+  align-items:center;
+  display: inline-flex;
+  gap:5px;
+  justify-content:center;
 }
 .btn-hero:hover {
   background-color: #ffe5cc;
@@ -79,11 +83,25 @@ nav {
   color: white;
   line-height: 30px;
 }
-.btn2 button {
-  padding: 12px 22px;
+.start-btn{
+  align-items:center;
+  display: inline-flex;
+  gap:5px;
+  justify-content:center;
+  background-color: #66cdaa;
+  color:white;
+}
+.see-btn{
+    align-items:center;
+  display: inline-flex;
+  gap:5px;
+  justify-content:center;
+}
 
-  color: white;
-  border: none;
+.btn2 button {
+  padding: 12px 32px;
+  border: 1px solid gray;
+  border-radius:5px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -215,7 +233,31 @@ background-color: #f0f0f0;
   border-radius: 8px;
   cursor: pointer;
   margin: 20px;
+  align-items:center;
+  display: inline-flex;
+  gap:5px;
+  justify-content:center;
 }
 .access-btn:hover{
     background-color:#778800;
+}
+
+.footer{
+    background-color:black;
+}
+.footer-container{
+    margin:0 auto;
+    padding: 60px 150px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.social h3{
+    color: white;
+    margin-bottom:10px;
+    font-size:20px;
+    line-height:20px;
+}
+.social-link img{
+    padding:5px;
 }
